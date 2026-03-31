@@ -1,4 +1,4 @@
-
+//Olga Lucia Guacaneme Archila
 import java.util.Scanner; // importar scanner
 
 public class Taller21260326 {
