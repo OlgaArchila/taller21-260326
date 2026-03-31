@@ -46,6 +46,25 @@ public class Lista {
         actual = actual.siguiente; // pasar al siguiente nodo
     }
 }
+    // método para encontrar el número faltante
+
+    public int encontrarFaltante() {
+
+        Nodo actual = cabeza; // empezar desde el primer nodo
+
+        while (actual.siguiente != null) { // recorrer hasta el penúltimo nodo
+
+            int diferencia = actual.siguiente.dato - actual.dato; // calcular la diferencia
+
+            if (diferencia > 1) { // si el salto es mayor que 1
+                return actual.dato + 1; // el número faltante está entre ellos
+            }
+
+            actual = actual.siguiente; // avanzar al siguiente nodo
+        }
+
+        return -1; // si no se encuentra ninguno
+    }
 }
 
 
