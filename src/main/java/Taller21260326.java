@@ -17,10 +17,13 @@ public class Taller21260326 {
         }
 
         lista.ordenar(); // ordenar la lista
+         System.out.println("------------");
+        lista.mostrar();// mostrar loista ordenada
 
         int faltante = lista.encontrarFaltante(); // buscar número faltante
 
         System.out.println(faltante); // imprimir resultado
+        
         
         
     }
