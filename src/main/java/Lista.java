@@ -17,8 +17,7 @@ public class Lista {
             while (aux.siguiente != null) { // recorrer hasta el último nodo
                 aux = aux.siguiente; // avanzar al siguiente nodo
             }
-
-        
+            aux.siguiente = nuevo;
         }
         
     }
