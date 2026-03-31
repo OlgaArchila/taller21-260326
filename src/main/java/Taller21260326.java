@@ -21,6 +21,8 @@ public class Taller21260326 {
         int faltante = lista.encontrarFaltante(); // buscar número faltante
 
         System.out.println(faltante); // imprimir resultado
+        
+        
     }
 }
 

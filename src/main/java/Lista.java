@@ -64,6 +64,18 @@ public class Lista {
 
         return -1; // si no se encuentra ninguno
     }
+    // método para mostrar la lista
+public void mostrar() {
+
+    Nodo actual = cabeza; // empezar desde el primer nodo
+
+    while (actual != null) { // recorrer toda la lista
+        System.out.print(actual.dato + " "); // imprimir el dato
+        actual = actual.siguiente; // avanzar al siguiente nodo
+    }
+
+    System.out.println(); // salto de línea al final
+}
 }
 
 
