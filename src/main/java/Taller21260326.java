@@ -17,7 +17,7 @@ public class Taller21260326 {
         }
 
         lista.ordenar(); // ordenar la lista
-         System.out.println("------------");
+         System.out.println("-------Ordenado-----------");
         lista.mostrar();// mostrar loista ordenada
 
         int faltante = lista.encontrarFaltante(); // buscar número faltante
